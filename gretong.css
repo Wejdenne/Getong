@@ -23,13 +23,28 @@
 #nav {
     background-color: white;
     font-family: serif;
+    position: absolute;
+    right: 50px;
 }
 
-.gretong .h2 {
+.gretong {
+    font-weight: lighter;
     text-align: left;
+    font-family: Arial, Helvetica, serif;
+    word-spacing: 10px;
+    font-size: 25px;
+    position: relative;
+    right: -70px;
 }
 
-.gretong .btn {
+.gretong .online {
+    padding: 10px;
+    font-size: 15px;
+    position: relative;
+    right: -50px;
+}
+
+.guru .btn {
     padding: 20px 20px;
     background-color: Transparent;
     color: black;
@@ -43,14 +58,21 @@
     border-color: black;
 }
 
-.gretong .checkout {
+.guru .checkout {
     background-color: black;
     border-color: black;
     color: white;
     font-size: 18px;
 }
 
-.gretong .text {
+.text {
+    font-size: 15px;
+    color: black;
+}
+
+.guru .btn1 {
+    border-color: gray;
+    background-color: white;
     font-size: 18px;
-    color: #BDBAB9;
+    padding: 5px;
 }
