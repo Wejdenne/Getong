@@ -1,0 +1,56 @@
+.header {
+    font-family: serif;
+    padding: 15px;
+    text-align: left;
+    background: #21272c;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.header .help {
+    padding-left: 60px;
+    background-color: Transparent;
+    border: none;
+    margin: 1px;
+    color: white;
+    font-size: 18px;
+    display: inline;
+    line-height: 0.3em;
+    word-spacing: 2px;
+    justify-content: space-around;
+}
+
+#nav {
+    background-color: white;
+    font-family: serif;
+}
+
+.gretong .h2 {
+    text-align: left;
+}
+
+.gretong .btn {
+    padding: 20px 20px;
+    background-color: Transparent;
+    color: black;
+    font-size: 18px;
+    border: none;
+    word-spacing: 2px;
+    justify-content: space-around;
+    margin: 1px;
+    display: inline;
+    line-height: 0.3em;
+    border-color: black;
+}
+
+.gretong .checkout {
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+.gretong .text {
+    font-size: 18px;
+    color: #BDBAB9;
+}
