@@ -1,78 +1,22 @@
-.header {
-    font-family: serif;
-    padding: 15px;
-    text-align: left;
-    background: #21272c;
-    color: #ffffff;
-    font-size: 18px;
+body {
+    margin: 0 auto;
+    background: floralwhite;
 }
 
-.header .help {
-    padding-left: 60px;
-    background-color: Transparent;
-    border: none;
-    margin: 1px;
-    color: white;
-    font-size: 18px;
-    display: inline;
-    line-height: 0.3em;
-    word-spacing: 2px;
-    justify-content: space-around;
-}
-
-#nav {
-    background-color: white;
-    font-family: serif;
-    position: absolute;
-    right: 50px;
-}
-
-.gretong {
-    font-weight: lighter;
-    text-align: left;
-    font-family: Arial, Helvetica, serif;
-    word-spacing: 10px;
-    font-size: 25px;
-    position: relative;
-    right: -70px;
-}
-
-.gretong .online {
-    padding: 10px;
-    font-size: 15px;
-    position: relative;
-    right: -50px;
-}
-
-.guru .btn {
-    padding: 20px 20px;
-    background-color: Transparent;
-    color: black;
-    font-size: 18px;
-    border: none;
-    word-spacing: 2px;
-    justify-content: space-around;
-    margin: 1px;
-    display: inline;
-    line-height: 0.3em;
-    border-color: black;
-}
-
-.guru .checkout {
+.top-container {
     background-color: black;
-    border-color: black;
+    width: auto;
+    height: 40px;
+}
+
+.content-left {
+    margin-left: 50px;
+}
+
+button {
+    background-color: Transparent;
     color: white;
-    font-size: 18px;
-}
-
-.text {
-    font-size: 15px;
-    color: black;
-}
-
-.guru .btn1 {
-    border-color: gray;
-    background-color: white;
-    font-size: 18px;
-    padding: 5px;
+    border: none;
+    font-size: 1rem;
+    margin-top: 10px;
 }
