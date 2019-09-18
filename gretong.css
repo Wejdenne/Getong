@@ -1,22 +1,52 @@
-body {
-    margin: 0 auto;
-    background: floralwhite;
-}
-
-.top-container {
-    background-color: black;
-    width: auto;
-    height: 40px;
-}
-
-.content-left {
-    margin-left: 50px;
-}
-
-button {
-    background-color: Transparent;
-    color: white;
-    border: none;
-    font-size: 1rem;
-    margin-top: 10px;
-}
+    body {
+        background: #f0f0f0;
+    }
+    
+    nav {
+        background: black;
+        padding: 10px;
+    }
+    
+    nav a {
+        color: #f0f0f0;
+    }
+    
+    nav li {
+        color: white;
+        list-style: none;
+        display: inline;
+        position: relative;
+        padding-right: 30px;
+        margin-left: 30px;
+    }
+    
+    .app {
+        float: right;
+        margin-right: 40px;
+        color: white;
+    }
+    
+    .left {
+        text-transform: uppercase;
+        line-height: 2px;
+        margin-left: 50px;
+        font-family: 'Cinzel', serif;
+        float: left;
+    }
+    
+    .left .up {
+        padding-left: 30px;
+        letter-spacing: 3px;
+        font-size: 20px;
+    }
+    
+    .right-top {
+        float: right;
+        font-size: 10px;
+        margin-right: 60px;
+    }
+    
+    .right-top .text {
+        height: 40px;
+        width: 400px;
+    }
