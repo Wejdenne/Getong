@@ -43,10 +43,32 @@
     .right-top {
         float: right;
         font-size: 10px;
-        margin-right: 60px;
+        margin-right: 40px;
+        word-spacing: 30px;
     }
     
     .right-top .text {
+        height: 30px;
+        width: 440px;
+        margin-left: 10px;
+    }
+    
+    .right-top .login {
         height: 40px;
-        width: 400px;
+        width: 70px;
+    }
+    
+    .right-top .register {
+        height: 40px;
+        width: 70px;
+    }
+    
+    .right-top .cart {
+        height: 40px;
+        width: 70px;
+    }
+    
+    .right-top .checkout {
+        height: 40px;
+        width: 70px;
     }
