@@ -1,17 +1,19 @@
     body {
         background: #f0f0f0;
+        margin: 0px;
     }
     
-    nav {
+    .nav {
         background: black;
         padding: 10px;
     }
     
-    nav a {
+    .nav a {
         color: #f0f0f0;
+        text-decoration: none
     }
     
-    nav li {
+    .nav li {
         color: white;
         list-style: none;
         display: inline;
@@ -32,12 +34,18 @@
         margin-left: 50px;
         font-family: 'Cinzel', serif;
         float: left;
+        line-height: 1px;
     }
     
     .left .up {
-        padding-left: 30px;
+        padding-left: 20px;
         letter-spacing: 3px;
-        font-size: 20px;
+        font-size: 31px;
+    }
+    
+    .left .down {
+        font-size: 15px;
+        padding-left: 20px;
     }
     
     .right-top {
@@ -51,24 +59,72 @@
         height: 30px;
         width: 440px;
         margin-left: 10px;
+        border: 2px solid #DCDCDC;
+        background: #f0f0f0;
+        padding: 10px;
     }
     
     .right-top .login {
         height: 40px;
         width: 70px;
+        border: 2px solid #DCDCDC;
+        background: #f0f0f0;
     }
     
     .right-top .register {
         height: 40px;
         width: 70px;
+        border: none;
+        background: #f0f0f0;
+        color: black;
     }
     
     .right-top .cart {
         height: 40px;
         width: 70px;
+        border: none;
+        background: #f0f0f0;
+        color: black;
     }
     
     .right-top .checkout {
         height: 40px;
         width: 70px;
+        border: none;
+        background: black;
+        color: #f0f0f0;
+    }
+    
+    .navbar {
+        background: #DCDCDC;
+        position: absolute;
+        top: 180px;
+        left: 70px;
+        height: 50px;
+        width: 91%;
+    }
+    
+    .navbar ul {
+        padding-left: 5px;
+    }
+    
+    .navbar a {
+        color: black;
+        padding: 31px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    .navbar li {
+        display: inline;
+        padding-right: 10px;
+    }
+    
+    img {
+        margin: 150px 40px;
+        width: 200px;
+        height: 200px;
+        float: left;
+        display: inline;
+        margin-left: 80px;
     }
