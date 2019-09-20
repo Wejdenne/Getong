@@ -120,11 +120,54 @@
         padding-right: 10px;
     }
     
+    .navbar a:hover {
+        color: black;
+    }
+    
     img {
-        margin: 150px 40px;
         width: 200px;
-        height: 200px;
+        height: 250px;
         float: left;
+        display: block;
+        margin: 80px 50.5px;
         display: inline;
         margin-left: 80px;
+    }
+    
+    .navbar a:hover {
+        color: white;
+    }
+    
+    .picone {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        line-height: 1px;
+        color: white;
+    }
+    
+    .pictwo {
+        position: absolute;
+        top: 50%;
+        right: 15%;
+        line-height: 1px;
+        color: white;
+    }
+    
+    h3 {
+        text-transform: uppercase;
+    }
+    
+    h6 {
+        text-transform: uppercase;
+        font-family: 'Abel', sans-serif;
+        letter-spacing: 1px;
+    }
+    
+    .button {
+        background-color: Transparent;
+        color: white;
+        border: 2px solid white;
+        width: 100px;
+        height: 40px;
     }
